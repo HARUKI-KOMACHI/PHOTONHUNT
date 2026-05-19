@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "PHOTONHUNT (Debug)",
+      "runtimeExecutable": "x64/Debug/20250421_DX21.exe",
+      "runtimeArgs": [],
+      "port": 0
+    },
+    {
+      "name": "PHOTONHUNT (Release)",
+      "runtimeExecutable": "x64/Release/20250421_DX21.exe",
+      "runtimeArgs": [],
+      "port": 0
+    }
+  ]
+}

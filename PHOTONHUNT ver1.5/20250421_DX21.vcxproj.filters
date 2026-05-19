@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダーファイル">
+      <UniqueIdentifier>{2e344079-bfeb-4434-92c7-222caf29ca90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DX">
+      <UniqueIdentifier>{206c159a-3ef9-421d-940f-20eaaad8d4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DX">
+      <UniqueIdentifier>{c11a090a-82de-447c-9738-77e36c9562f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OpenGL">
+      <UniqueIdentifier>{ebed8e98-074c-4c84-a147-8356dde975d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OpenGL">
+      <UniqueIdentifier>{62f5f95b-5694-43e8-872e-c25d792beaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{3b115d93-9952-41f8-830b-3c329c5eab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{60cea91c-1735-4782-a401-235f2d0f1e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\Common">
+      <UniqueIdentifier>{8eb1fb8a-f9aa-4b13-a8d8-f62f9e1689e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\Common\cpp">
+      <UniqueIdentifier>{c6c04fd1-5ff9-4841-9d26-764cecec9864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\Common\h">
+      <UniqueIdentifier>{6a183f90-aaee-42f4-be85-4e7be97790e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\ImportScene">
+      <UniqueIdentifier>{4b8e428a-3d6b-4671-af7d-4bb82ee9f863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\ImportScene\h">
+      <UniqueIdentifier>{4e7df02a-9fbc-44fd-9d58-1e04f0924d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX\ImportScene\cpp">
+      <UniqueIdentifier>{3205fddb-7950-498e-898b-4273004ad26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Gmae-0">
+      <UniqueIdentifier>{ec1a17ae-c3c6-4990-9c07-406a675d80b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game1">
+      <UniqueIdentifier>{0955e702-5a30-4ad0-ad68-8e60b08d277a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game1\ソース ファイル">
+      <UniqueIdentifier>{75465685-3c00-44cb-a695-c90e7086dcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game1\ヘッダー ファイル">
+      <UniqueIdentifier>{a1e56e76-18fc-439a-92c8-54420b49703b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_ostream.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadManager _1.0\GamepadManager_DEDUG.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadManager _1.0\GamepadManager.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="ChiliTimer\ChiliTimer.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_widgets.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_demo.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_draw.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\backends\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\backends\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_tables.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="resultbg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\glad\src\glad.c">
+      <Filter>シェーダーファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics-OpenGL.cpp">
+      <Filter>ソース ファイル\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\backends\imgui_impl_opengl3.cpp">
+      <Filter>ソース ファイル\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL_shader.cpp">
+      <Filter>ソース ファイル\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\Common\AnimationUtility.cpp">
+      <Filter>FBX\Common\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\Common\Common.cpp">
+      <Filter>FBX\Common\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\Common\GeometryUtility.cpp">
+      <Filter>FBX\Common\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayTexture.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayUserProperties.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayAnimation.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayCache.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayCamera.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayCommon.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayGenericInfo.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayGlobalSettings.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayHierarchy.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayLight.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayLink.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayLodGroup.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayMarker.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayMaterial.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayMesh.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayNurb.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayPatch.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayPivotsAndLimits.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayPose.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplayShape.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\ImportScene\DisplaySkeleton.cpp">
+      <Filter>FBX\ImportScene\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\ImGuizmo.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_Light.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_Opaque.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_Transparent.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DX_Spine.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent_3D.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Msg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="game_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="wall_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sun_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gamebg_1.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gridmap.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ingameUI.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hpbar.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowgauge.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="logo.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="attackUI.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorialUI.cpp">
+      <Filter>Game1\ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="rom\shader\PS_StaticObject.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\VS_StaticObject.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_pixel_2d.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_vertex_2d.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\PS_Transparent.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Object_Spine.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Object_Spine.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\PS_Light.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\VS_Light.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\VS_StaticObject_fbx.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\PS_PLAYER.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\PS_Pixelation.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="rom\shader\PS_Ground_grid.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_ostream.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadManager _1.0\GamepadManager.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadManager _1.0\GamepadManager_DEDUG.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliTimer\ChiliTimer.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\backends\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\backends\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resultbg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsThrowMacros.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowState.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliWin.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics-OpenGL.h">
+      <Filter>ヘッダー ファイル\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_shader.h">
+      <Filter>ヘッダー ファイル\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\Common\AnimationUtility.h">
+      <Filter>FBX\Common\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\Common\Common.h">
+      <Filter>FBX\Common\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\Common\GeometryUtility.h">
+      <Filter>FBX\Common\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayAnimation.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayCache.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayCamera.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayCommon.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayGenericInfo.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayGlobalSettings.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayHierarchy.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayLight.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayLink.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayLodGroup.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayMarker.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayMaterial.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayMesh.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayNurb.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayPatch.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayPivotsAndLimits.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayPose.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayShape.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplaySkeleton.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayTexture.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\ImportScene\DisplayUserProperties.h">
+      <Filter>FBX\ImportScene\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent_3D.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\ImGuizmo.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX_Spine.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="player_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="wall_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sun_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gamebg_1.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gridmap.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ingameUI.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="hpbar.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowgauge.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="attackUI.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialUI.h">
+      <Filter>Game1\ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_2d.glsl">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="pixel_2d.glsl">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
