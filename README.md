@@ -2,6 +2,8 @@
 ## ゲーム概要
 影に変身して、敵を倒しながらゴールを目指す2Dアクションゲーム。
 
+※ファイル容量の関係上実行動画はGoogleドライブの実行動画フォルダ内にあります
+
 ## 操作方法
 ### コントローラ
 左スティック：移動
@@ -28,6 +30,9 @@ E（長押し->離す）：攻撃　※変身中のみ可能
 https://github.com/user-attachments/assets/6de972db-627b-4148-bbb9-7dcfe77477cc
 
 壁の後ろにプレイヤーがいる際に該当の壁を透過。
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c1d8b648-8b98-4f50-94ac-2ceb6f1132aa" />
+
 
 エネミーがプレイヤーを追跡する際に壁に引っかからない処理を実装。
 
